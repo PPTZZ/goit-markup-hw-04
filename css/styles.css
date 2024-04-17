@@ -52,6 +52,15 @@ a {
   box-shadow: 0px 3px 1px 0px #0000001a;
 }
 
+.btn:focus{
+  background-color: var(--color-primary);
+  cursor: pointer;
+  color: var(--white);
+  box-shadow: 0px 2px 2px 0px #0000001f;
+  box-shadow: 0px 1px 2px 0px #00000014;
+  box-shadow: 0px 3px 1px 0px #0000001a;
+}
+
 .btn:focus {
   background-color: var(--color-primary);
   cursor: pointer;
@@ -290,6 +299,13 @@ text-align: center;
   width: 370px;
   height: 404px;
   border: 1px var(--color-card-border) solid;
+}
+
+.portofolio-card:hover{
+  cursor: pointer;
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .portofolio-card__description{
