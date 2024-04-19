@@ -138,10 +138,7 @@ ul {
 	color: var(--color-title);
 }
 
-.header__link:hover {
-	color: var(--color-primary);
-}
-
+.header__link:hover,
 .header__link:focus {
 	color: var(--color-primary);
 }
@@ -155,13 +152,11 @@ ul {
 	text-decoration: none;
 }
 
-.header__contact a:hover {
-	color: var(--color-primary);
-}
-
+.header__contact a:hover,
 .header__contact a:focus {
 	color: var(--color-primary);
 }
+
 
 /* Main */
 /* Hero section */
@@ -281,27 +276,19 @@ ul {
 	width: 44px;
 	border: 0 solid white;
 	border-radius: 50%;
-	gap: 10px;
 }
 
 
 
-.team-card__icon-link:hover .team-card__icon {
+.team-card__icon-link:hover .team-card__icon,
+.team-card__icon-link:focus-within .team-card__icon {
 	fill: var(--white);
 	stroke: var(--white);
 }
 
-.team-card__icon-link:focus .team-card__icon {
-	fill: var(--white);
-	stroke: var(--white);
-}
-
-.team-card__icon-background:hover {
+.team-card__icon-background:hover,
+.team-card__icon-background:focus-within {
 	background-color: var(--color-primary);
-}
-
-.team-card__icon-background:focus{
-  background-color: var(--color-primary);
 }
 
 /* Client Section */
